@@ -2,6 +2,17 @@ A plugin for rofi that emulates [blezz](https://github.com/Blezzing/blezz) behav
 
 To run this you need an up to date checkout of rofi git installed.
 
+Build from soruce:
+
+```
+cd rofi-blezz
+autoreconf -fi
+PKG_CONFIG_PATH=/usr/local/lib/pkgconfig ./configure --prefix /usr/local
+make
+make install
+```
+
+
 Run rofi like:
 
 ```
